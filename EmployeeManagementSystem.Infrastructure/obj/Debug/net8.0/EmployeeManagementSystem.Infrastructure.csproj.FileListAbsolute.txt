@@ -19,3 +19,4 @@ F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSys
 F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.Infrastructure\obj\Debug\net8.0\EmployeeManagementSystem.Infrastructure.pdb
 F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.Infrastructure\obj\Debug\net8.0\EmployeeManagementSystem.Infrastructure.genruntimeconfig.cache
 F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.Infrastructure\obj\Debug\net8.0\ref\EmployeeManagementSystem.Infrastructure.dll
+F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.Infrastructure\obj\Debug\net8.0\EmployeeManagementSystem.Infrastructure.sourcelink.json

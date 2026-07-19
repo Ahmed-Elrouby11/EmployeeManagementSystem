@@ -179,3 +179,4 @@ F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSys
 F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.API\obj\Debug\net8.0\EmployeeManagementSystem.API.genruntimeconfig.cache
 F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.API\obj\Debug\net8.0\ref\EmployeeManagementSystem.API.dll
 F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.API\obj\Debug\net8.0\EmployeeManagementSystem.API.sourcelink.json

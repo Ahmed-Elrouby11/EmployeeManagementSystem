@@ -1,6 +1,8 @@
+using Asp.Versioning;
 using EmployeeManagementSystem.API.Middleware;
 using EmployeeManagementSystem.Application.Interfaces.Services;
 using EmployeeManagementSystem.Application.Mappings;
+using EmployeeManagementSystem.Application.Services;
 using EmployeeManagementSystem.Application.Validators.Employee;
 using EmployeeManagementSystem.Domain.Entities;
 using EmployeeManagementSystem.Infrastructure.Persistence.Context;
@@ -11,7 +13,6 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi;
 using Microsoft.OpenApi.Models;
-using Asp.Versioning;
 using Serilog;
 using System.Text;
 
@@ -59,6 +60,7 @@ builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IJwtTokenService, JwtTokenService>();
 builder.Services.AddScoped<IRefreshTokenRepository, RefreshTokenRepository>();
 builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IDepartmentService, DepartmentService>();
 
 // =============================
 // Identity
@@ -173,6 +175,11 @@ builder.Services.AddAuthorization(options =>
         policy.RequireRole("Admin", "HR");
     });
 
+    options.AddPolicy("ViewDepartments", policy =>
+    {
+        policy.RequireRole("Admin", "HR", "Manager");
+    });
+
     options.AddPolicy("ViewEmployees", policy =>
     {
         policy.RequireRole("Admin", "HR", "Manager", "Employee");
@@ -180,7 +187,7 @@ builder.Services.AddAuthorization(options =>
 
     options.AddPolicy("ManageDepartments", policy =>
     {
-        policy.RequireRole("Admin");
+        policy.RequireRole("Admin", "HR");
     });
 
     options.AddPolicy("ManageUsers", policy =>

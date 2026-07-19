@@ -38,4 +38,5 @@ public class EmployeeProfile : Profile
                 opt => opt.MapFrom(src =>
                     src.Department.Name));
     }
+
 }

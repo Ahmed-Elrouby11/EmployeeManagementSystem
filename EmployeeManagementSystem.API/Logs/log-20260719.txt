@@ -3,3 +3,107 @@
 2026-07-19 12:38:30.949 +03:00 [INF] HTTP GET /swagger/favicon-32x32.png responded 200 in 352.1164 ms
 2026-07-19 12:39:56.459 +03:00 [INF] HTTP POST /api/Auth/login responded 200 in 5382.5835 ms
 2026-07-19 12:41:28.813 +03:00 [INF] HTTP GET /api/v1/Employees/profile responded 200 in 385.8844 ms
+2026-07-19 15:48:10.985 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 175.5523 ms
+2026-07-19 15:48:11.772 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 1.1779 ms
+2026-07-19 15:48:13.835 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 21.2180 ms
+2026-07-19 15:48:13.844 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 7.6735 ms
+2026-07-19 15:50:48.039 +03:00 [INF] HTTP POST /api/Auth/login responded 200 in 1939.3882 ms
+2026-07-19 15:51:24.023 +03:00 [ERR] Unhandled exception occurred.
+System.InvalidOperationException: The AuthorizationPolicy named: 'ViewDepartments' was not found.
+   at Microsoft.AspNetCore.Authorization.AuthorizationPolicy.CombineAsync(IAuthorizationPolicyProvider policyProvider, IEnumerable`1 authorizeData, IEnumerable`1 policies)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at EmployeeManagementSystem.API.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.API\Middlewares\ExceptionMiddleware.cs:line 25
+2026-07-19 15:51:24.435 +03:00 [ERR] HTTP GET /api/v1/Departments responded 500 in 693.8896 ms
+2026-07-19 15:52:27.568 +03:00 [ERR] Unhandled exception occurred.
+System.InvalidOperationException: The AuthorizationPolicy named: 'ViewDepartments' was not found.
+   at Microsoft.AspNetCore.Authorization.AuthorizationPolicy.CombineAsync(IAuthorizationPolicyProvider policyProvider, IEnumerable`1 authorizeData, IEnumerable`1 policies)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at EmployeeManagementSystem.API.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.API\Middlewares\ExceptionMiddleware.cs:line 25
+2026-07-19 15:52:27.578 +03:00 [ERR] HTTP GET /api/v1/Departments/4 responded 500 in 16.5206 ms
+2026-07-19 16:15:45.296 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 264.5604 ms
+2026-07-19 16:15:48.005 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 30.7822 ms
+2026-07-19 16:16:31.593 +03:00 [INF] Getting all departments.
+2026-07-19 16:16:31.644 +03:00 [INF] HTTP GET /api/v1/Departments responded 200 in 2680.3196 ms
+2026-07-19 16:16:55.390 +03:00 [INF] Getting department with Id: 3
+2026-07-19 16:16:55.399 +03:00 [INF] HTTP GET /api/v1/Departments/3 responded 200 in 213.3708 ms
+2026-07-19 16:17:02.920 +03:00 [INF] Getting department with Id: 4
+2026-07-19 16:17:02.924 +03:00 [INF] HTTP GET /api/v1/Departments/4 responded 200 in 29.8943 ms
+2026-07-19 16:17:08.672 +03:00 [ERR] Unhandled exception occurred.
+EmployeeManagementSystem.Application.Exceptions.NotFoundException: Department not found
+   at EmployeeManagementSystem.Application.Services.DepartmentService.GetByIdAsync(Int32 id) in F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.Application\Services\DepartmentService.cs:line 42
+   at EmployeeManagementSystem.API.Controllers.DepartmentsController.GetById(Int32 id) in F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.API\Controllers\DepartmentsController.cs:line 34
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at EmployeeManagementSystem.API.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.API\Middlewares\ExceptionMiddleware.cs:line 25
+2026-07-19 16:17:08.951 +03:00 [INF] HTTP GET /api/v1/Departments/43 responded 404 in 384.6009 ms
+2026-07-19 16:37:32.106 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 63.3058 ms
+2026-07-19 16:37:41.727 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 18.9366 ms
+2026-07-19 16:38:07.487 +03:00 [INF] HTTP GET /api/v1/Departments/3/employees/count responded 200 in 1468.8873 ms
+2026-07-19 16:38:20.069 +03:00 [INF] HTTP GET /api/v1/Departments/4/employees/count responded 200 in 46.2713 ms
+2026-07-19 16:39:02.793 +03:00 [ERR] Unhandled exception occurred.
+System.Exception: Department not found.
+   at EmployeeManagementSystem.Application.Services.DepartmentService.GetEmployeeCountAsync(Int32 departmentId) in F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.Application\Services\DepartmentService.cs:line 81
+   at EmployeeManagementSystem.API.Controllers.DepartmentsController.GetEmployeeCount(Int32 id) in F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.API\Controllers\DepartmentsController.cs:line 70
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at EmployeeManagementSystem.API.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.API\Middlewares\ExceptionMiddleware.cs:line 25
+2026-07-19 16:39:03.861 +03:00 [ERR] HTTP GET /api/v1/Departments/41/employees/count responded 500 in 1150.2727 ms
+2026-07-19 16:40:17.814 +03:00 [ERR] Unhandled exception occurred.
+System.Exception: Department not found.
+   at EmployeeManagementSystem.Application.Services.DepartmentService.GetEmployeeCountAsync(Int32 departmentId) in F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.Application\Services\DepartmentService.cs:line 81
+   at EmployeeManagementSystem.API.Controllers.DepartmentsController.GetEmployeeCount(Int32 id) in F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.API\Controllers\DepartmentsController.cs:line 70
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at EmployeeManagementSystem.API.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.API\Middlewares\ExceptionMiddleware.cs:line 25
+2026-07-19 16:40:17.823 +03:00 [ERR] HTTP GET /api/v1/Departments/41/employees/count responded 500 in 39.3546 ms
+2026-07-19 16:40:38.924 +03:00 [ERR] Unhandled exception occurred.
+System.Exception: Department not found.
+   at EmployeeManagementSystem.Application.Services.DepartmentService.GetEmployeeCountAsync(Int32 departmentId) in F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.Application\Services\DepartmentService.cs:line 81
+   at EmployeeManagementSystem.API.Controllers.DepartmentsController.GetEmployeeCount(Int32 id) in F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.API\Controllers\DepartmentsController.cs:line 70
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at EmployeeManagementSystem.API.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.API\Middlewares\ExceptionMiddleware.cs:line 25
+2026-07-19 16:40:38.935 +03:00 [ERR] HTTP GET /api/v1/Departments/1/employees/count responded 500 in 32.2657 ms
+2026-07-19 16:40:46.412 +03:00 [INF] HTTP GET /api/v1/Departments/3/employees/count responded 200 in 32.4699 ms
+2026-07-19 16:49:54.465 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 76.5241 ms
+2026-07-19 16:49:55.122 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 21.0892 ms
+2026-07-19 16:50:10.930 +03:00 [INF] HTTP GET /api/v1/Departments/3/employees responded 401 in 302.7532 ms
+2026-07-19 16:50:30.476 +03:00 [INF] HTTP GET /api/v1/Departments/3/employees responded 200 in 874.4513 ms

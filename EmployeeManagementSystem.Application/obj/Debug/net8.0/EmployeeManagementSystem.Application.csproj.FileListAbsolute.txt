@@ -15,3 +15,4 @@ F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSys
 F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.Application\obj\Debug\net8.0\refint\EmployeeManagementSystem.Application.dll
 F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.Application\obj\Debug\net8.0\EmployeeManagementSystem.Application.pdb
 F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.Application\obj\Debug\net8.0\ref\EmployeeManagementSystem.Application.dll
+F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.Application\obj\Debug\net8.0\EmployeeManagementSystem.Application.sourcelink.json

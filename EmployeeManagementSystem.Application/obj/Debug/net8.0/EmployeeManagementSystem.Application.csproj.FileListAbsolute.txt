@@ -1,0 +1,17 @@
+F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.Application\bin\Debug\net8.0\EmployeeManagementSystem.Application.deps.json
+F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.Application\bin\Debug\net8.0\EmployeeManagementSystem.Application.dll
+F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.Application\bin\Debug\net8.0\EmployeeManagementSystem.Application.pdb
+F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.Application\bin\Debug\net8.0\EmployeeManagementSystem.Domain.dll
+F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.Application\bin\Debug\net8.0\EmployeeManagementSystem.Shared.dll
+F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.Application\bin\Debug\net8.0\EmployeeManagementSystem.Domain.pdb
+F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.Application\bin\Debug\net8.0\EmployeeManagementSystem.Shared.pdb
+F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.Application\obj\Debug\net8.0\EmployeeManagementSystem.Application.csproj.AssemblyReference.cache
+F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.Application\obj\Debug\net8.0\EmployeeManagementSystem.Application.GeneratedMSBuildEditorConfig.editorconfig
+F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.Application\obj\Debug\net8.0\EmployeeManagementSystem.Application.AssemblyInfoInputs.cache
+F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.Application\obj\Debug\net8.0\EmployeeManagementSystem.Application.AssemblyInfo.cs
+F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.Application\obj\Debug\net8.0\EmployeeManagementSystem.Application.csproj.CoreCompileInputs.cache
+F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.Application\obj\Debug\net8.0\Employee.DBF86555.Up2Date
+F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.Application\obj\Debug\net8.0\EmployeeManagementSystem.Application.dll
+F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.Application\obj\Debug\net8.0\refint\EmployeeManagementSystem.Application.dll
+F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.Application\obj\Debug\net8.0\EmployeeManagementSystem.Application.pdb
+F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.Application\obj\Debug\net8.0\ref\EmployeeManagementSystem.Application.dll

@@ -1,0 +1,11 @@
+F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.Shared\bin\Debug\net8.0\EmployeeManagementSystem.Shared.deps.json
+F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.Shared\bin\Debug\net8.0\EmployeeManagementSystem.Shared.dll
+F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.Shared\bin\Debug\net8.0\EmployeeManagementSystem.Shared.pdb
+F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.Shared\obj\Debug\net8.0\EmployeeManagementSystem.Shared.GeneratedMSBuildEditorConfig.editorconfig
+F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.Shared\obj\Debug\net8.0\EmployeeManagementSystem.Shared.AssemblyInfoInputs.cache
+F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.Shared\obj\Debug\net8.0\EmployeeManagementSystem.Shared.AssemblyInfo.cs
+F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.Shared\obj\Debug\net8.0\EmployeeManagementSystem.Shared.csproj.CoreCompileInputs.cache
+F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.Shared\obj\Debug\net8.0\EmployeeManagementSystem.Shared.dll
+F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.Shared\obj\Debug\net8.0\refint\EmployeeManagementSystem.Shared.dll
+F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.Shared\obj\Debug\net8.0\EmployeeManagementSystem.Shared.pdb
+F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.Shared\obj\Debug\net8.0\ref\EmployeeManagementSystem.Shared.dll

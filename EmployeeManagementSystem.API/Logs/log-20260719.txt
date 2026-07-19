@@ -1,0 +1,5 @@
+2026-07-19 12:38:29.240 +03:00 [INF] HTTP GET /swagger/index.html responded 200 in 167.7418 ms
+2026-07-19 12:38:30.336 +03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 16.1775 ms
+2026-07-19 12:38:30.949 +03:00 [INF] HTTP GET /swagger/favicon-32x32.png responded 200 in 352.1164 ms
+2026-07-19 12:39:56.459 +03:00 [INF] HTTP POST /api/Auth/login responded 200 in 5382.5835 ms
+2026-07-19 12:41:28.813 +03:00 [INF] HTTP GET /api/v1/Employees/profile responded 200 in 385.8844 ms

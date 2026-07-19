@@ -1,0 +1,12 @@
+F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.Domain\bin\Debug\net8.0\EmployeeManagementSystem.Domain.deps.json
+F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.Domain\bin\Debug\net8.0\EmployeeManagementSystem.Domain.dll
+F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.Domain\bin\Debug\net8.0\EmployeeManagementSystem.Domain.pdb
+F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.Domain\obj\Debug\net8.0\EmployeeManagementSystem.Domain.csproj.AssemblyReference.cache
+F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.Domain\obj\Debug\net8.0\EmployeeManagementSystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.Domain\obj\Debug\net8.0\EmployeeManagementSystem.Domain.AssemblyInfoInputs.cache
+F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.Domain\obj\Debug\net8.0\EmployeeManagementSystem.Domain.AssemblyInfo.cs
+F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.Domain\obj\Debug\net8.0\EmployeeManagementSystem.Domain.csproj.CoreCompileInputs.cache
+F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.Domain\obj\Debug\net8.0\EmployeeManagementSystem.Domain.dll
+F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.Domain\obj\Debug\net8.0\refint\EmployeeManagementSystem.Domain.dll
+F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.Domain\obj\Debug\net8.0\EmployeeManagementSystem.Domain.pdb
+F:\universty\first term4\COMPILER\EmployeeManagementSystem\EmployeeManagementSystem.Domain\obj\Debug\net8.0\ref\EmployeeManagementSystem.Domain.dll

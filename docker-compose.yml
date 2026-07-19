@@ -1,0 +1,38 @@
+version: '3.9'
+
+services:
+
+  employee-api:
+    image: employee-api
+    build:
+      context: .
+      dockerfile: EmployeeManagementSystem.API/Dockerfile
+
+    ports:
+      - "5000:8080"
+
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+
+      ConnectionStrings__DefaultConnection: "Server=sqlserver,1433;Database=EmployeeManagementDb;User Id=sa;Password=Ahmed@123;TrustServerCertificate=True;"
+
+    depends_on:
+      - sqlserver
+
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+
+    container_name: sqlserver
+
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "Ahmed@123"
+
+    ports:
+      - "1433:1433"
+
+    volumes:
+      - sql_data:/var/opt/mssql
+
+volumes:
+  sql_data:

@@ -137,6 +137,16 @@ Generate New Access Token
 | POST   | /api/auth/refresh  |
 
 ---
+## Users
+
+| Method | Endpoint              |
+| ------ | --------------------- |
+| GET    | /api/users            |
+| GET    | /api/users/{id}       |
+| PUT    | /api/users/{id}/role  |
+
+
+---
 
 ## Employees
 
@@ -152,14 +162,15 @@ Generate New Access Token
 
 ## Departments
 
-| Method | Endpoint                 |
-| ------ | ------------------------ |
-| GET    | /api/v1/departments      |
-| GET    | /api/v1/departments/{id} |
-| POST   | /api/v1/departments      |
-| PUT    | /api/v1/departments/{id} |
-| DELETE | /api/v1/departments/{id} |
-
+| Method | Endpoint                                 |
+| ------ | ---------------------------------------- |
+| GET    | /api/v1/departments                      |
+| GET    | /api/v1/departments/{id}                 |
+| POST   | /api/v1/departments                      |
+| PUT    | /api/v1/departments/{id}                 |
+| DELETE | /api/v1/departments/{id}                 |
+| GET    | /api/v1/departments/{id}/employees/count |
+| GET    | /api/v1/departments/{id}/employees       |
 ---
 
 # Database
